@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import './globals.css';
-import Button from '../components/Button';
 import ShimmerButton from '../components/magicui/shimmer-button';
 
 export default function NotFound() {

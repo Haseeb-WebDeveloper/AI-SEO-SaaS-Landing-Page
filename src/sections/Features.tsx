@@ -34,22 +34,22 @@ const tabs = [
 export const Features = () => {
 
   // Store references to all DotLottiePlayer elements
-  const playerRefs = useRef<(HTMLDotLottiePlayerElement | null)[]>([]);
+  // const playerRefs = useRef<(HTMLDotLottiePlayerElement | null)[]>([]);
   
   // State to track the active tab
   const [activeTabIndex, setActiveTabIndex] = useState<number>(0);
 
-  const handleMouseEnter = (index: number) => {
-    if (playerRefs.current[index]) {
-      playerRefs.current[index]?.play(); // Start playing animation on hover
-    }
-  };
+  // const handleMouseEnter = (index: number) => {
+  //   if (playerRefs.current[index]) {
+  //     playerRefs.current[index]?.play(); // Start playing animation on hover
+  //   }
+  // };
 
-  const handleMouseLeave = (index: number) => {
-    if (playerRefs.current[index]) {
-      playerRefs.current[index]?.stop(); // Stop animation on mouse leave
-    }
-  };
+  // const handleMouseLeave = (index: number) => {
+  //   if (playerRefs.current[index]) {
+  //     playerRefs.current[index]?.stop(); // Stop animation on mouse leave
+  //   }
+  // };
 
   const handleTabClick = (index: number) => {
     setActiveTabIndex(index); // Set the clicked tab as active
@@ -74,8 +74,8 @@ export const Features = () => {
                 <motion.div
                   key={tab.title}
                   className={`flex items-center gap-4 py-2 px-3 rounded-lg border border-white/20 cursor-pointer `}
-                  onMouseEnter={() => handleMouseEnter(index)} // Play animation on hover
-                  onMouseLeave={() => handleMouseLeave(index)} // Stop animation on mouse leave
+                  // onMouseEnter={() => handleMouseEnter(index)} // Play animation on hover
+                  // onMouseLeave={() => handleMouseLeave(index)} // Stop animation on mouse leave
                   onClick={() => handleTabClick(index)} // Handle tab click
                 >
                   <div className="p-2 bg-gradient-to-br from-[#9b60fa] via-[#803FEA] to-[#240552] rounded-lg">
@@ -83,7 +83,7 @@ export const Features = () => {
                       className="w-5 h-5"
                       autoplay={false} // Disable autoplay initially
                       loop
-                      ref={(el) => (playerRefs.current[index] = el)} // Store reference to the player
+                      // ref={(el) => (playerRefs.current[index] = el)} // Store reference to the player
                       src={tab.icon}
                     />
                   </div>

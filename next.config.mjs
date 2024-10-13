@@ -1,8 +1,15 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
+
 const nextConfig = {
   output: "export",
-  basePath: process.env.BASE_PATH ? process.env.BASE_PATH : "",
-  assetPrefix: process.env.URL ? process.env.URL : undefined,
+  // typescript: {
+  //   ignoreBuildErrors: true,
+  // },
+  // eslint: {
+  //   ignoreDuringBuilds: true,
+  // },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
