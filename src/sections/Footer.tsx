@@ -36,9 +36,6 @@ export const Footer = () => {
             </div>
           </div>
         </footer>
-        <div className="text-white/70 text-sm text-center py-4">
-          <p>© 2024 AI SEO. All rights reserved.</p>
-        </div>
       </section>
     </>
   );
