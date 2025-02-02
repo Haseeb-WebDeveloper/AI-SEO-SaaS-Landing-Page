@@ -28,7 +28,7 @@ export default function NotFound() {
             marginBottom: '2rem',
             fontSize: '1.125rem',
             fontWeight: '300'
-          }}>This page is locked by Haseeb Ahmed.</p>
+          }}>This page is locked by Wasif Ali Khan.</p>
           <Link href="/" style={{
            display: 'flex',
            alignItems: 'center',

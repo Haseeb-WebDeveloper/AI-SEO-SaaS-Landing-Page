@@ -23,7 +23,7 @@ export const Header = () => {
             </div>
 
             <div className="hidden md:block">
-            {/* <a href="https://www.haseebkhan.online/" target="_blank" className="text-white/70 hover:text-white transition font-jetbrains">Design & Developed by Haseeb Ahmed</a> */}
+            {/* <a href="https://www.haseebkhan.online/" target="_blank" className="text-white/70 hover:text-white transition font-jetbrains">Design & Developed by Wasif Ali Khan</a> */}
               <nav className=" flex gap-8 items-center text-sm font-light">
                 <Link href="/feature" className=" text-white/70 hover:text-white transition">Feature</Link>
                 <Link href="/pricing" className=" text-white/70 hover:text-white transition">Pricing</Link>

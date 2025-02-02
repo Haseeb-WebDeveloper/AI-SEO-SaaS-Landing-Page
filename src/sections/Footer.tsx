@@ -14,7 +14,7 @@ export const Footer = () => {
                 <h2 className="text-sm">AI SEO</h2>
             </Link>
             <div id="navLinks">
-              <a href="https://www.haseebkhan.online/" target="_blank" className="text-white/70 hover:text-white transition font-jetbrains">Design & Developed by Haseeb Ahmed</a>
+              <a href="https://www.haseebkhan.online/" target="_blank" className="text-white/70 hover:text-white transition font-jetbrains">Design & Developed by Wasif Ali Khan</a>
               {/* <nav className="flex  md:flex-row gap-x-8 gap-y-2 text-sm">
                 <a href="#" className="text-white/70 hover:text-white transition">Feature</a>
                 <a href="#" className="text-white/70 hover:text-white transition">Pricing</a>
