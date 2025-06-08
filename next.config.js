@@ -6,6 +6,7 @@ const nextConfig = {
       use: ["@svgr/webpack"],
     });
     return config;
+    
   },
 };
 

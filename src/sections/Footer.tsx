@@ -23,13 +23,13 @@ export const Footer = () => {
             </div>
             <div id="socialMedia" className="flex items-center">
               <nav className="flex gap-3 text-sm">
-                <a href="https://www.instagram.com/haseeb.ahmed.raza.khan/" className="text-white/70 hover:text-white transition">
+                <a href="https://www.instagram.com/haseeb.ahmed.raza.khan" className="text-white/70 hover:text-white transition">
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a href="https://wa.me/qr/45TGTRBIVEY3F1" className="text-white/70 hover:text-white transition">
+                <a href="https://wa.me/923147651112" className="text-white/70 hover:text-white transition">
                   <Whatsapp className="w-6 h-6" />
                 </a>
-                <a href="https://www.upwork.com/freelancers/~0118381d87d570dc8b?mp_source=share" className="text-white/70 hover:text-white transition">
+                <a href="https://www.upwork.com/freelancers/~01416f5dd867bc4a69" className="text-white/70 hover:text-white transition">
                   <Upwork className="w-6 h-6" />
                 </a>
               </nav> 
